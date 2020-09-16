@@ -18,6 +18,7 @@ CUDA_VISIBLE_DEVICES=5 python3 run.py --raw_train_filename="data/sparc_data_remo
           --input_key="utterance" \
           --state_positional_embeddings=1 \
           --discourse_level_lstm=1 \
+          --use_utterance_attention=1 \
           --use_previous_query=1 \
           --use_query_attention=1 \
           --use_copy_switch=1 \
